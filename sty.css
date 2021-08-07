@@ -1,0 +1,75 @@
+body
+{
+background-image: url("Login.jpg");
+width: 100px;
+height: 100px;
+background-position:center;
+}
+.login
+{
+height:450px;
+width:380px;
+background-color:rgb(107, 131, 151);
+color:#fff;
+top:10%;
+left:10%;
+position:absolute;
+box-sizing:border box;
+}
+.man
+{
+width:100px;
+height:100px;
+border-radius:50%;
+position:absolute;
+top:-50px;
+left:calc(50% - 50px);
+}
+h1
+{
+text-align:center;
+font-size:18px;
+margin:50px;
+padding:0 0 20px;
+}
+.login p
+{
+margin:0;
+padding:0;
+margin-top:20px;
+font-weight:bold;
+
+}
+.login input
+{
+width:250px;
+margin-left:0px;
+margin-bottom:0px;
+}
+.login input[type="text"],input[type="password"]
+{
+border:none;
+border-bottom: 1px solid #fff;
+background:transparent;
+outline:none;
+height:40px;
+color:#fff;
+font-size:16px;
+margin:10px;
+}
+.login input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:#fb2525;
+color:#fff;
+font-size:18px;
+border-radius:20px;
+}
+.login input[type="submit"]:hover
+{
+cursor:pointer;
+background: #ffc107;
+color:#000;
+}
